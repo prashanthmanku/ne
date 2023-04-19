@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.l {
+  text-align: center;
+}
+.list-item-In-Transactionitem {
+  color: #334155 !important;
+  font-weight: 500 !important ;
+  font-size: 12px !important;
+}
+.delete-btn-container {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+.delete-btn {
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.delete-img {
+  width: 20px;
+
+  /* margin: 0px; */
+}

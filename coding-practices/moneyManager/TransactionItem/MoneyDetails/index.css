@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.bg-1 {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.bg-2 {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.bg-3 {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+
+.moneyDetails-item-container {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  max-width: 350px;
+}
+.money-img {
+  width: 50px;
+  margin-right: 15px;
+}
+.title-amout-container {
+}
+.title {
+  color: #475569;
+  font-size: 13px;
+  font-weight: 400;
+}
+.amout {
+  color: #475569;
+  font-size: 18px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .moneyDetails-item-container {
+    margin-right: 20px;
+    padding-right: 40px;
+    /* width: 250px; */
+  }
+}
