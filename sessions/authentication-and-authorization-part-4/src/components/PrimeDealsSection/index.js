@@ -91,6 +91,8 @@ class PrimeDealsSection extends Component {
         return this.renderPrimeDealsList()
       case apiStatusConstants.failure:
         return this.renderPrimeDealsFailureView()
+      case apiStatusConstants.inProgress:
+        return this.renderLoadingView()
       default:
         return null
     }
